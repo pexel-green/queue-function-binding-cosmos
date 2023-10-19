@@ -1,0 +1,21 @@
+{
+    "disabled": false,
+    "bindings": [
+        {
+            "type": "queueTrigger",
+            "direction": "in",
+            "name": "photoCognitiveResult",
+            "queueName": "photocognitive",
+            "connection": "MyStorageAccountAppSetting"
+        },
+        {
+            "name": "imageAnalysisDocument",
+            "type": "cosmosDB",
+            "databaseName": "cognitive",
+            "collectionName": "imageContainer",
+            "createIfNotExists": true,
+            "connectionStringSetting": "MyAccount_COSMOSDB",
+            "direction": "out"
+        }
+    ]
+}

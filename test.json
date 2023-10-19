@@ -1,0 +1,374 @@
+    {
+        "invocationId": "4cb26a66-c2d0-4cf3-8e64-e190916062db",
+        "traceContext": {
+            "traceparent": "",
+            "tracestate": "",
+            "attributes": {}
+        },
+        "executionContext": {
+            "invocationId": "4cb26a66-c2d0-4cf3-8e64-e190916062db",
+            "functionName": "PhotoBinding",
+            "functionDirectory": "C:\\\\Users\\\\pcs\\\\Desktop\\\\final_project\\\\queue-function-binding\\\\PhotoBinding",
+            "retryContext": null
+        },
+        "bindings": {
+            "photoCognitiveResult": {
+                "data": {
+                    "categories": [
+                        {
+                            "name": "people_",
+                            "score": 0.99609375
+                        }
+                    ],
+                    "color": {
+                        "dominantColorForeground": "White",
+                        "dominantColorBackground": "White",
+                        "dominantColors": [
+                            "White"
+                        ],
+                        "accentColor": "208BAB",
+                        "isBwImg": false,
+                        "isBWImg": false
+                    },
+                    "imageType": {
+                        "clipArtType": 0,
+                        "lineDrawingType": 0
+                    },
+                    "tags": [
+                        {
+                            "name": "human face",
+                            "confidence": 0.9982848763465881
+                        },
+                        {
+                            "name": "person",
+                            "confidence": 0.9720652103424072
+                        },
+                        {
+                            "name": "clothing",
+                            "confidence": 0.936295747756958
+                        },
+                        {
+                            "name": "chin",
+                            "confidence": 0.932090163230896
+                        },
+                        {
+                            "name": "forehead",
+                            "confidence": 0.9177823066711426
+                        },
+                        {
+                            "name": "boy",
+                            "confidence": 0.9124004244804382
+                        },
+                        {
+                            "name": "screenshot",
+                            "confidence": 0.8938873410224915
+                        },
+                        {
+                            "name": "neck",
+                            "confidence": 0.8839948177337646
+                        },
+                        {
+                            "name": "eyebrow",
+                            "confidence": 0.8712567090988159
+                        },
+                        {
+                            "name": "jaw",
+                            "confidence": 0.8527675867080688
+                        },
+                        {
+                            "name": "portrait",
+                            "confidence": 0.8470093607902527
+                        },
+                        {
+                            "name": "shirt",
+                            "confidence": 0.5763192176818848
+                        },
+                        {
+                            "name": "fabric",
+                            "confidence": 0.536405622959137
+                        }
+                    ],
+                    "description": {
+                        "tags": [
+                            "text",
+                            "person",
+                            "posing",
+                            "male"
+                        ],
+                        "captions": [
+                            {
+                                "text": "a boy in a blue shirt",
+                                "confidence": 0.3925703167915344
+                            }
+                        ]
+                    },
+                    "objects": [
+                        {
+                            "rectangle": {
+                                "x": 414,
+                                "y": 78,
+                                "w": 626,
+                                "h": 653
+                            },
+                            "object": "person",
+                            "confidence": 0.898
+                        }
+                    ],
+                    "brands": [],
+                    "requestId": "8a8b69ee-14fb-486c-b2fd-b40ad2c2dbda",
+                    "metadata": {
+                        "height": 754,
+                        "width": 1432,
+                        "format": "Png"
+                    },
+                    "modelVersion": "2021-05-01"
+                },
+                "path": "photos/abx/pcs2.png"
+            }
+        },
+        "bindingData": {
+            "invocationId": "4cb26a66-c2d0-4cf3-8e64-e190916062db",
+            "queueTrigger": {
+                "data": {
+                    "categories": [
+                        {
+                            "name": "people_",
+                            "score": 0.99609375
+                        }
+                    ],
+                    "color": {
+                        "dominantColorForeground": "White",
+                        "dominantColorBackground": "White",
+                        "dominantColors": [
+                            "White"
+                        ],
+                        "accentColor": "208BAB",
+                        "isBwImg": false,
+                        "isBWImg": false
+                    },
+                    "imageType": {
+                        "clipArtType": 0,
+                        "lineDrawingType": 0
+                    },
+                    "tags": [
+                        {
+                            "name": "human face",
+                            "confidence": 0.9982848763465881
+                        },
+                        {
+                            "name": "person",
+                            "confidence": 0.9720652103424072
+                        },
+                        {
+                            "name": "clothing",
+                            "confidence": 0.936295747756958
+                        },
+                        {
+                            "name": "chin",
+                            "confidence": 0.932090163230896
+                        },
+                        {
+                            "name": "forehead",
+                            "confidence": 0.9177823066711426
+                        },
+                        {
+                            "name": "boy",
+                            "confidence": 0.9124004244804382
+                        },
+                        {
+                            "name": "screenshot",
+                            "confidence": 0.8938873410224915
+                        },
+                        {
+                            "name": "neck",
+                            "confidence": 0.8839948177337646
+                        },
+                        {
+                            "name": "eyebrow",
+                            "confidence": 0.8712567090988159
+                        },
+                        {
+                            "name": "jaw",
+                            "confidence": 0.8527675867080688
+                        },
+                        {
+                            "name": "portrait",
+                            "confidence": 0.8470093607902527
+                        },
+                        {
+                            "name": "shirt",
+                            "confidence": 0.5763192176818848
+                        },
+                        {
+                            "name": "fabric",
+                            "confidence": 0.536405622959137
+                        }
+                    ],
+                    "description": {
+                        "tags": [
+                            "text",
+                            "person",
+                            "posing",
+                            "male"
+                        ],
+                        "captions": [
+                            {
+                                "text": "a boy in a blue shirt",
+                                "confidence": 0.3925703167915344
+                            }
+                        ]
+                    },
+                    "objects": [
+                        {
+                            "rectangle": {
+                                "x": 414,
+                                "y": 78,
+                                "w": 626,
+                                "h": 653
+                            },
+                            "object": "person",
+                            "confidence": 0.898
+                        }
+                    ],
+                    "brands": [],
+                    "requestId": "8a8b69ee-14fb-486c-b2fd-b40ad2c2dbda",
+                    "metadata": {
+                        "height": 754,
+                        "width": 1432,
+                        "format": "Png"
+                    },
+                    "modelVersion": "2021-05-01"
+                },
+                "path": "photos/abx/pcs2.png"
+            },
+            "dequeueCount": 1,
+            "expirationTime": "2023-10-26T10:07:51+00:00",
+            "id": "676098ea-ca39-4eb5-a579-3071f489972f",
+            "insertionTime": "2023-10-19T10:07:51+00:00",
+            "nextVisibleTime": "2023-10-19T10:17:52+00:00",
+            "popReceipt": "AgAAAAMAAAAAAAAA9rv4hHUC2gE=",
+            "data": {
+                "categories": [
+                    {
+                        "name": "people_",
+                        "score": 0.99609375
+                    }
+                ],
+                "color": {
+                    "dominantColorForeground": "White",
+                    "dominantColorBackground": "White",
+                    "dominantColors": [
+                        "White"
+                    ],
+                    "accentColor": "208BAB",
+                    "isBwImg": false,
+                    "isBWImg": false
+                },
+                "imageType": {
+                    "clipArtType": 0,
+                    "lineDrawingType": 0
+                },
+                "tags": [
+                    {
+                        "name": "human face",
+                        "confidence": 0.9982848763465881
+                    },
+                    {
+                        "name": "person",
+                        "confidence": 0.9720652103424072
+                    },
+                    {
+                        "name": "clothing",
+                        "confidence": 0.936295747756958
+                    },
+                    {
+                        "name": "chin",
+                        "confidence": 0.932090163230896
+                    },
+                    {
+                        "name": "forehead",
+                        "confidence": 0.9177823066711426
+                    },
+                    {
+                        "name": "boy",
+                        "confidence": 0.9124004244804382
+                    },
+                    {
+                        "name": "screenshot",
+                        "confidence": 0.8938873410224915
+                    },
+                    {
+                        "name": "neck",
+                        "confidence": 0.8839948177337646
+                    },
+                    {
+                        "name": "eyebrow",
+                        "confidence": 0.8712567090988159
+                    },
+                    {
+                        "name": "jaw",
+                        "confidence": 0.8527675867080688
+                    },
+                    {
+                        "name": "portrait",
+                        "confidence": 0.8470093607902527
+                    },
+                    {
+                        "name": "shirt",
+                        "confidence": 0.5763192176818848
+                    },
+                    {
+                        "name": "fabric",
+                        "confidence": 0.536405622959137
+                    }
+                ],
+                "description": {
+                    "tags": [
+                        "text",
+                        "person",
+                        "posing",
+                        "male"
+                    ],
+                    "captions": [
+                        {
+                            "text": "a boy in a blue shirt",
+                            "confidence": 0.3925703167915344
+                        }
+                    ]
+                },
+                "objects": [
+                    {
+                        "rectangle": {
+                            "x": 414,
+                            "y": 78,
+                            "w": 626,
+                            "h": 653
+                        },
+                        "object": "person",
+                        "confidence": 0.898
+                    }
+                ],
+                "brands": [],
+                "requestId": "8a8b69ee-14fb-486c-b2fd-b40ad2c2dbda",
+                "metadata": {
+                    "height": 754,
+                    "width": 1432,
+                    "format": "Png"
+                },
+                "modelVersion": "2021-05-01"
+            },
+            "path": "photos/abx/pcs2.png"
+        },
+        "bindingDefinitions": [
+            {
+                "name": "photoCognitiveResult",
+                "type": "queueTrigger",
+                "direction": "in"
+            },
+            {
+                "name": "imageAnalysisDocument",
+                "type": "cosmosDB",
+                "direction": "out"
+            }
+        ]
+    }
